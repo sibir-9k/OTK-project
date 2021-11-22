@@ -264,7 +264,7 @@ ul.list-group {
 
 .home {
   display: flex;
-  background: url(/img/home-bg.jpg) #6c9a31;
+  background: url(../img/home-bg.jpg) #6c9a31;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #6c9a31;
@@ -532,7 +532,7 @@ ul.list-group {
 
 /*///////////////////////////////// FOOOTER ///////////////////////////////////////*/
 footer {
-  background-image: url(/img/svg-img/footer_main_bg.svg);
+  background-image: url(../img/svg-img/footer_main_bg.svg);
   background-repeat: no-repeat;
   background-color: #6c9a31;
   padding: 27px 0px 45px;
