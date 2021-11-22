@@ -63,7 +63,7 @@ img {
 }
 /*////////////////////// Footer ////////////////////////////////*/
 .bg-footer-pattern {
-  background: url("../img/footer-pattern.svg") no-repeat center center;
+  background: url("../img/svg-img/footer_catalog_bg.svg") no-repeat center center;
   background-size: cover;
 }
 .nav-footer .nav-link {
