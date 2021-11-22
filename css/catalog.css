@@ -184,7 +184,7 @@ img {
 .btn-pdf {
   width: 847px;
   height: 145px;
-  background-image: url(/img/btn-catalog.jpg);
+  background-image: url(../img/btn-catalog.jpg);
   margin: 26px 0px 49px;
 }
 .btn-pdf h2 {
