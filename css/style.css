@@ -143,20 +143,16 @@ img {
   background-color: #f4fcea;
 }
 
-/* Все хорошо */
 .catalog-header {
   display: flex;
   align-items: stretch;
   margin-bottom: 71px;
 }
-/* Все хорошо */
-
 .tree {
   display: flex;
   flex-direction: column;
   margin-bottom: 62px;
 }
-
 ul.list-group {
   display: flex;
   list-style-type: none;
@@ -164,7 +160,6 @@ ul.list-group {
   justify-content: space-evenly;
 }
 
-/* Все хорошо */
 .catalog-item {
   display: flex;
   flex-direction: column;
@@ -188,7 +183,6 @@ ul.list-group {
   color: #14320a;
   margin-top: 50px;
 }
-
 .catalog-icon strong {
   font-family: Rubik;
   font-style: normal;
@@ -196,27 +190,21 @@ ul.list-group {
   font-size: 24px;
   line-height: 28px;
 }
-/* Все хорошо */
-
 .catalog-list {
   display: flex;
 }
-
 .catalog-title {
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
 }
-
 .catalog-item img:hover {
   background: rgba(108, 154, 49, 0.7);
 }
-
 .card:hover {
   background: rgba(108, 154, 49, 0.2);
 }
-
 /*  Агроткань */
 .coating-header {
   display: flex;
@@ -225,7 +213,6 @@ ul.list-group {
   flex-direction: column;
   margin-bottom: 26px;
 }
-
 /* Полоска снизу */
 .hr-min {
   width: 141px;
@@ -233,9 +220,7 @@ ul.list-group {
   text-align: center;
   opacity: 1;
 }
-
 /* Кнопка */
-
 .button {
   display: flex;
   justify-content: center;
@@ -261,9 +246,7 @@ ul.list-group {
   color: #000000;
   text-decoration: none;
 }
-
 /* Home */
-
 .home {
   display: flex;
   background: url(../img/home-bg.jpg) #6c9a31;
@@ -281,13 +264,11 @@ ul.list-group {
   line-height: 38px;
   color: #14320a;
 }
-
 .home-checked {
   display: flex;
   list-style-type: none;
   align-items: baseline;
 }
-
 .home-checked p {
   font-family: Rubik;
   font-style: normal;
@@ -296,41 +277,32 @@ ul.list-group {
   line-height: 21px;
   color: #ffffff;
 }
-
 .home-checked img {
   margin-right: 25px;
 }
-
 .border-check {
   width: 456px;
   margin-top: 10px;
   margin-bottom: 19px;
   border-bottom: 3px solid #ffffff;
 }
-
 .home-header {
   width: 595px;
 }
-
 /* Sale */
-
 .sale {
   display: flex;
   margin-bottom: 65px;
 }
-
 .sale-block {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .block {
   text-align: center;
   height: 100%;
 }
-
-/* На что вы можете расчитывать */
-
+/*/////////// На что вы можете расчитывать ////////////////*/
 .benefits {
   padding: 80px 0px 120px;
   background-image: url(../img/bg-3.jpg);
@@ -378,7 +350,6 @@ ul.list-group {
   color: #ffffff;
 }
 /* ///////////////////////////////// DELIVERY //////////////////////////////////// */
-
 .delivery {
   padding: 93px 0px 0px;
   background-image: url(../img/paper-texture-bg.jpg);
@@ -460,7 +431,6 @@ ul.list-group {
 }
 
 /*///////////////////////////////// BLOG //////////////////////////////////////////// */
-
 .blog {
   padding: 37px 0px 50px;
   background-color: #f4fcea;
@@ -516,22 +486,88 @@ ul.list-group {
 /*/////////////////////////////// RECOMMENDATION //////////////////////////////*/
 
 .recommendation {
+  display: flex;
+  padding: 53px 0px 57px;
   background-color: #6c9a31;
 }
+.recommendation-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-recomendation img {
+  background-color: transparent;
+  border-radius: 100%;
+}
+.recommendation-text p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #14320a;
+  margin-bottom: 30px;
+}
+.recommendation-text strong {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #14320a;
+}
 
+.carousel-item {
+  margin-right: 39px;
+}
+.park {
+  width: 147px;
+  height: 65px;
+}
+.photo-rec {
+  width: 92px;
+  height: 92px;
+  background-color: transparent;
+  border-radius: 100%;
+}
 /*/////////////////////////////// QQ ////////////////////////////////////////////////*/
-
 .qq {
   padding-top: 74px;
   background-color: #14320a;
   color: #ffffff;
 }
-
 .svg-picture {
   display: flex;
   align-items: flex-end;
 }
-
+.qq-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qq-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.qq-tel {
+  display: flex;
+  flex-direction: column;
+}
+.qq-tel a,
+.info-contacts a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.qq-mail {
+  display: flex;
+  flex-direction: column;
+}
 /*///////////////////////////////// FOOOTER ///////////////////////////////////////*/
 footer {
   background-image: url(../img/svg-img/footer_main_bg.svg);

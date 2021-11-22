@@ -10,9 +10,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>OTK</title>
@@ -366,14 +364,14 @@
                 <strong>
                   <div class="delivery-tel">
                     <img src="./img/svg-img/icon_tel.svg" alt="">
-                    <div>
-                      <a href="tel:88000000000">8 800 000 00 00</a><br>
+                    <div class="qq-tel">
+                      <a href="tel:88000000000">8 800 000 00 00</a>
                       <a href="tel:8801112233">8 800 111 22 33</a>
                     </div>
                   </div>
                   <div class="delivery-email">
                     <img src="./img/svg-img/icon_massage.svg" alt="">
-                    <div>
+                    <div class="info-contacts">
                       <a href="mailto:help@otk.ru">help@otk.ru</a>
                     </div>
                   </div>
@@ -454,29 +452,75 @@
 <!-- Нас рекомендуют -->
     <section class="recommendation">
       <div class="container">
-      <div class="row row-cols-2">
-        <div class="recommendation-header">
-          <h2>Нас рекомендуют</h2>
+        <div class="row">
+          <div class="recommendation-header col-12">
+            <h2>Нас рекомендуют</h2>
+            <hr class="hr-min">
+          </div>
+          <div class="row">
+            <div class="photo-recomendation col-4"><img src="./img/photo-recomendation.jpg" alt=""></div>
+            <div class="recommendation-text col-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <strong >Елена Летучая, телеведущая</strong>
+            </div>
+          </div>
         </div>
-        <div class="col-3"><img src="./img/photo-recomendation.jpg" alt=""></div>
-        <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-        <p>Елена Летучая, телеведущая</p>
-      </div>
+
       <!-- Карусель -->
-      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+      <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner row w-100 mx-auto flex-nowrap">
+            <div class="carousel-item">
+              <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
+            </div>
+            <div class="carousel-item active">
+              <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner row w-100 mx-auto flex-nowrap">
+          <div class="carousel-item">
+            <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
+          </div>
           <div class="carousel-item active">
-            <img src="./img/home.jpg" class="d-block w-50" alt="...">
+            <img src="./img/park-gorikogo-text.jpg" class="d-block w-auto park" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/home.jpg" class="d-block w-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/home.jpg" class="d-block w-50" alt="...">
+            <img src="./img/photo-recomendation.jpg" class="d-block w-auto photo-rec" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -487,6 +531,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div> -->
       </div>
     </section>
   
@@ -494,27 +539,33 @@
     <section class="qq">
       <div class="container">
         <div class="row">
-          <div class="qq-header">
+          <div class="qq-header col">
             <h2>Остались вопросы?</h2>
+            <hr class="hr-min_white">
           </div>
-          <div class="qq-phone">
-            <h2>Позвоните нам</h2>
-            <div class="qq-tel">
-              <p>8 800 000 00 00</p> 
-              <p>8 800 111 22 33</p> 
+          <div class="row">
+            <div class="qq-phone col-6">
+              <h2>Позвоните нам</h2>
+              <div class="qq-tel">
+                <a href="tel:88000000000">8 (800) 000 00 00</a>
+                <a href="tel:88001112233">8 (800) 111 22 33</a> 
+              </div>
+            </div>
+            <div class="qq-mail col-6">
+              <h2>Или напишите</h2>
+              <div class="info-contacts">
+                <a href="mailto:info@otk.ru">info@otk.ru</a>
+              </div>
             </div>
           </div>
-          <div class="qq-mail">
-            <h2>Или напишите</h2>
-            <div class="email">
-              <p>help@otk.ru</p>
+          <div class="row">
+            <div class="svg-picture col-6">
+              <img src="./img/svg-img/tree.svg" alt="">
+              <img src="./img/svg-img/bushes.svg" alt="">
             </div>
-          </div>
-
-          <div class="svg-picture">
-            <img src="./img/svg-img/tree.svg" alt="">
-            <img src="./img/svg-img/bushes.svg" alt="">
-            <img src="./img/svg-img/car-icon.svg" alt="">
+            <div class="svg-picture col-6">
+              <img src="./img/svg-img/car-icon.svg" alt="">
+            </div>
           </div>
         </div>
       </div>
