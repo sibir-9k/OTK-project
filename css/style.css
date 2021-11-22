@@ -543,6 +543,7 @@ ul.list-group {
 .svg-picture {
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 .qq-header {
   display: flex;
