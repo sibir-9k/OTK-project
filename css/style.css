@@ -171,6 +171,10 @@ ul.list-group {
   text-align: center;
   height: 100%;
 }
+  a {
+  color: #14320a;
+  text-decoration: none;
+}
 .catalog-icon p {
   width: 261px;
   height: 82px;
