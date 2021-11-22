@@ -12,6 +12,8 @@
 }
 .body {
   width: auto;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 img {
   max-width: 100%;
@@ -486,10 +488,10 @@ ul.list-group {
   text-align: center;
   color: #14320a;
 }
-.blog-card{
+.blog-card {
   text-align: center;
 }
-.blog-card_text{
+.blog-card_text {
   padding-top: 23px;
 }
 .blog-card_text strong {
