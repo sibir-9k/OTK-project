@@ -290,24 +290,17 @@ input[type="range"]::-webkit-slider-thumb {
   width: 262px;
   height: 270px;
 }
-.catalog-icon p {
-  width: 261px;
-  height: 82px;
-  font-family: Rubik;
-  font-style: normal;
+.catalog-item p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #14320a;
-  margin-top: 50px;
 }
-.catalog-icon strong {
-  font-family: Rubik;
-  font-style: normal;
+.catalog-item strong {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 28px;
 }
 .row-catalog {
   margin: 49px 0px 59px;
