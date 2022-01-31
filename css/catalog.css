@@ -286,24 +286,26 @@ input[type="range"]::-webkit-slider-thumb {
   flex-direction: column;
   margin-left: 230px;
 }
+.catalog-item a {
+  text-decoration: none;
+}
 .catalog-item img {
   width: 262px;
   height: 270px;
 }
-.catalog-item p {
+.catalog-item__text{
   text-align: center;
+}
+.catalog-item p {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  text-decoration: none;
   color: #000000;
 }
 .catalog-item strong {
-  text-align: center;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 28px;
-  text-decoration: none;
   color: #000000;
 }
 .row-catalog {
